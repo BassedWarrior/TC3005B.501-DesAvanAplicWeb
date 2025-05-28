@@ -1,7 +1,6 @@
 import { test, expect } from 'vitest';
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import React from 'react';
 import TravelRequestForm from '../components/TravelRequestForm';
 
 test('renders the travel request form', () => {
