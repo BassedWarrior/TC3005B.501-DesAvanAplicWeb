@@ -1,7 +1,5 @@
-import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import InputField from './InputField';
 import Button from './Button';
 
 // Yup validation schema
