@@ -15,29 +15,6 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <a href="../src/class3/a01029079/public/menu.html">A01029079</a>
-      <div className="card">
-        <button onClick={() => window.location.href = '/A01028796/menu.html'}>
-          Ir al menú
-        </button>
-        <div>
-          <a href="/public/A01027913/Menu.html">
-            <button>Menu</button>
-          </a>
-        </div>
-        <a href="/public/A01028517/Menú.html"><button>Link menu A01028517</button></a>
-        <a href="/public/A01028517/Milestone2/Milestone2_Menu.html"><button>Link menu Milestone2</button></a>
-
-
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <div className="card">
-        <a href="/public/A01028033/menu/milestoneMenu.html">
-          <button>A01028033's Menu Button!</button>
-        </a>
-      </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
@@ -45,19 +22,7 @@ function App() {
         <a href="/src/class1/A01027983/">
           <button>A01027983 and A01784875</button>
         </a>
-        <a href='../src/class3/A01029143/pages/Menu.html'>
-          Menu A01029143
-        </a>
       </div>
-      <a href="/public/A01028418/menu.html">
-        <button>A01028418</button>
-      </a>
-      <a href={'/A01027920/Home.html'} className='buttonlink'>A01027920 Menu</a>
-      <div>
-      <a href="src/class3/A01799073/new_home.html">
-        <button>Menu (A01799073)</button>
-      </a>
-    </div>
     </>
   );
 }
