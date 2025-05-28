@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Class2Example from "./Class2Example.tsx";
 import Button from "./components/Button.tsx";
 import "./Class2.css"
