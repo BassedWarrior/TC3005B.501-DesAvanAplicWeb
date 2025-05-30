@@ -17,7 +17,7 @@ function Class10() {
           <Button label="Milestone4" onClick={() => document.location = "/src/class9/A01027983_and_A01784875/"} />
         </div>
       </div>
-      <h1>Class 7 Example A01027983 and A01784875</h1>
+      <h1>Class 10 Example A01027983 and A01784875</h1>
       <UserProvider>
         <Class10Example />
       </UserProvider>
