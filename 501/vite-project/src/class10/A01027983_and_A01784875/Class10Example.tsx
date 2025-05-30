@@ -12,7 +12,7 @@ const Class10Example: React.FC = () => {
 
   useEffect(() => {
     // Establish WebSocket connection when component mounts
-    ws.current = new WebSocket('ws://localhost:8080');
+    ws.current = new WebSocket('ws://172.16.61.182:8080');
 
     // Handle incoming messages from the server
     ws.current.onmessage = async (event: MessageEvent) => {
