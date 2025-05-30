@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import Button from "./components/Button";
+import InputField from "./components/InputField";
 
 const Class10Example: React.FC = () => {
   // State to hold received messages and user input
@@ -58,13 +60,13 @@ const Class10Example: React.FC = () => {
         ))}
       </ul>
 
-      <input
+      <InputField
         type="text"
         value={inputMessage}
         onChange={(e) => setInputMessage(e.target.value)}
         placeholder="Type a message"
       />
-      <button onClick={handleSend}>Send</button>
+      <Button label="Send" onClick={handleSend} />
     </div>
   );
 };
