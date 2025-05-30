@@ -21,6 +21,8 @@ export default defineConfig({
             "src/class7/A01027983_and_A01784875/index.html",
         "class8/A01027983_and_A01784875":
             "src/class8/A01027983_and_A01784875/index.html",
+        "class9/A01027983_and_A01784875":
+            "src/class9/A01027983_and_A01784875/index.html",
       }
     }
   }
