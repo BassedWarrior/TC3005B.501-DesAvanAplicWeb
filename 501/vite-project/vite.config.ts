@@ -23,6 +23,8 @@ export default defineConfig({
             "src/class8/A01027983_and_A01784875/index.html",
         "class9/A01027983_and_A01784875":
             "src/class9/A01027983_and_A01784875/index.html",
+        "class10/A01027983_and_A01784875":
+            "src/class10/A01027983_and_A01784875/index.html"
       }
     }
   }
