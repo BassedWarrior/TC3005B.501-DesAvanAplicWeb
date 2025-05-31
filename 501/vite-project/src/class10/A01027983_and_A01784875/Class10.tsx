@@ -1,9 +1,9 @@
-import Class8Example from "./Class8Example.tsx";
+import Class10Example from "./Class10Example.tsx";
 import Button from "./components/Button.tsx";
-import { UserProvider } from "./components/UserContext.tsx";
-import "./Class8.css"
+import { UserProvider } from "./components/userContext.tsx";
+import "./Class10.css"
 
-function Class8() {
+function Class10() {
   return (
     <>
       <div>
@@ -12,17 +12,17 @@ function Class8() {
           <Button label="Main Page" onClick={() => document.location= "/"} />
           <Button label="Milestone1" onClick={() => document.location = "/src/class1/A01027983/"} />
           <Button label="Milestone2" onClick={() => document.location = "/src/class4/A01027983_and_A01784875/"} />
-          <Button label="Class7" onClick={() => document.location = "/src/class7/A01027983_and_A01784875/"} />
-          <Button label="Class8" />
+          <Button label="Class7" />
+          <Button label="Class8" onClick={() => document.location = "/src/class8/A01027983_and_A01784875/"} />
           <Button label="Milestone4" onClick={() => document.location = "/src/class9/A01027983_and_A01784875/"} />
         </div>
       </div>
-      <h1>Class 8 Example A01027983 and A01784875</h1>
+      <h1>Class 10 Example A01027983 and A01784875</h1>
       <UserProvider>
-        <Class8Example />
+        <Class10Example />
       </UserProvider>
     </>
   )
 }
 
-export default Class8;
+export default Class10;

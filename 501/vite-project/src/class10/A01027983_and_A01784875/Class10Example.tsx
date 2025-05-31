@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
+import Button from "./components/Button";
+import InputField from "./components/InputField";
 
-const Class7Example: React.FC = () => {
+const Class10Example: React.FC = () => {
   // State to hold received messages and user input
   const [notifications, setNotifications] = useState<string[]>([]);
   const [inputMessage, setInputMessage] = useState('');
@@ -10,7 +12,7 @@ const Class7Example: React.FC = () => {
 
   useEffect(() => {
     // Establish WebSocket connection when component mounts
-    ws.current = new WebSocket('ws://localhost:8080');
+    ws.current = new WebSocket('ws://172.16.61.182:8080');
 
     // Handle incoming messages from the server
     ws.current.onmessage = async (event: MessageEvent) => {
@@ -58,15 +60,15 @@ const Class7Example: React.FC = () => {
         ))}
       </ul>
 
-      <input
+      <InputField
         type="text"
         value={inputMessage}
         onChange={(e) => setInputMessage(e.target.value)}
         placeholder="Type a message"
       />
-      <button onClick={handleSend}>Send</button>
+      <Button label="Send" onClick={handleSend} />
     </div>
   );
 };
 
-export default Class7Example;
+export default Class10Example;

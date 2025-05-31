@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import InputField from './components/InputField';
+import { useState } from 'react';
 import Button from './components/Button';
 
 const Class3Example = () => {
